@@ -1,0 +1,23 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.skills__title {
+  text-align: center;
+}
+
+.skills-section {
+  width: 90%;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.skill {
+  color: #1e2019;
+  list-style-type: none;
+  margin: 7px 0;
+}

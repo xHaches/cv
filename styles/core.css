@@ -1,0 +1,12 @@
+body {
+  background-color: #1d1f25;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+.text {
+  font-family: "Roboto";
+}
