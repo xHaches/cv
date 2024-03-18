@@ -1,14 +1,9 @@
 .header {
-  display: flex;
+  display: grid;
   width: 100%;
-  justify-content: flex-end;
-}
-
-.title__container {
-  flex: 1; /* usar el espacio disponible y no ovalar la imagen */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 250px;
+  place-items: center;
 }
 
 .title {
